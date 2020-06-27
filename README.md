@@ -5,6 +5,12 @@ Upfile tiene como funcion subir ficheros a los servidores de **Anonfiles** y **U
 - Anonfiles
 - Uplovd
 
+## Instalacion de modulos
+```
+pip install requests
+pip install argparse
+```
+
 ## Uso
 El uso de **upfile** es muy sencillo, he aqui los parametros...
 ```
