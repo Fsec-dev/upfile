@@ -1,5 +1,5 @@
 # upfile
-Upfile tiene como funcion subir ficheros a los servidores de **Anonfiles** y **Uplovd**
+Upfile tiene como funcion subir ficheros a los servidores de **Anonfiles** y **Uplovd**, todo es to desde la comodidad de tu terminal.
 
 ## Lista de Servidores
 - Anonfiles
