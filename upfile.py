@@ -20,7 +20,7 @@ clear = lambda:os.system("clear")
 
 # Lista de Hostings
 hostings = {'anonfile':'https://api.anonfiles.com/upload',
-	    'uplovd':'https://api.uplovd.com/upload'
+	    'bayfiles':'https://api.bayfiles.com/upload'
 }
 
  # banner
@@ -94,7 +94,7 @@ def main():
 	 					  epilog='Creado por g0d, UpFile 1.0v - 2018')
 	argp.add_argument('filename', help="Nombre del fichero a subir")
 	argp.add_argument('-s', '--hosting', help="Selecciona el Hosting que deseas",
-					  choices=['anonfile', 'uplovd'], dest='hosting')
+					  choices=['anonfile', 'bayfiles'], dest='hosting')
 	args = argp.parse_args()
 	
 	upload(hostings[args.hosting], args.filename)
